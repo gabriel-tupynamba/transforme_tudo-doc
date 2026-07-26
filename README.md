@@ -8,7 +8,7 @@ O **Transforme Tudo** é uma solução mobile de alta performance desenvolvida e
 
 ## 🏛️ Documentação Técnica Oficial
 
-A arquitetura, a matemática e as regras de negócio do sistema estão integralmente detalhadas na pasta `/docs`:
+A arquitetura, a matemática e as regras de negócio do sistema estão parcialmente detalhadas na pasta `/docs`:
 
 * **[Arquitetura e Banco de Dados (`docs/arquitetura_e_banco_de_dados.md`)](docs/arquitetura_e_banco_de_dados.md)** — Topologia NoSQL otimizada para leitura ($O(1)$), estrutura de coleções (`muscle_groups`, `profiles`, `exercises`) e desacoplamento de UI/Dados.
 * **[Motor Biomecânico e SAC 6.5 (`docs/motor_biomecanico_sac_6_5.md`)](docs/motor_biomecanico_sac_6_5.md)** — Sistema de Auditoria de Carga, critérios binários ($C1$ a $C6$) de estabilidade sistêmica/vetorial e o modelo de Equivalência de Série ($S_e$).
