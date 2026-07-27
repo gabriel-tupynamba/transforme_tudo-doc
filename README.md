@@ -6,6 +6,21 @@ O **Transforme Tudo** é uma solução mobile robusta e de alta performance dese
 
 ---
 
+## 🚀 Acesse o Protótipo
+
+Teste o Transforme Tudo através do navegador, baixe a build compilada para Android ou assista ao vídeo de apresentação da arquitetura:
+
+* 🌐 **Acesso Web (PWA):** [Clique aqui para acessar o Transforme Tudo](COLOQUE_SEU_LINK_DO_FIREBASE_AQUI.web.app)
+* 📱 **Download Android (APK):** [Baixar TransformeTudo.apk](./TransformeTudo.apk)
+* 🎬 **Vídeo de Apresentação:** *Ainda não disponível — Link em breve*
+
+### 🗝️ Acesso Demonstrativo para Avaliação
+Para testes operacionais rápidos na build de demonstração, utilize as credenciais padrão de auditoria:
+* **Usuário:** `ContaTeste`
+* **Senha:** `testando`
+
+---
+
 ## 🏛️ Documentação Técnica Oficial (`/docs`)
 
 A arquitetura, a matemática e as regras de negócio do sistema estão detalhadas nos módulos da pasta `/docs`:
