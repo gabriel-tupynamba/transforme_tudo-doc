@@ -1,56 +1,68 @@
 # 🚀 Transforme Tudo
 
-> **Ecossistema Mobile Avançado de Desenvolvimento Pessoal, Gestão de Treinamento Biomecânico e Produtividade**
+> **Ecossistema Mobile de Alta Performance para Gestão de Treinamento Biomecânico, Produtividade e Desenvolvimento Pessoal**
 
-O **Transforme Tudo** é uma solução mobile robusta e de alta performance desenvolvida em **Flutter**, estruturada com arquitetura orientada a microsserviços frontend e integrada ao ecossistema **Firebase (NoSQL)**. O aplicativo vai muito além de uma simples ferramenta de treino: ele integra serviços de execução em segundo plano, sobreposições flutuantes (*bubble overlays*), player multimídia nativo, gráficos analíticos complexos e um motor determinístico de prescrição de treinos baseado na biomecânica da tensão mecânica.
+O **Transforme Tudo** não é apenas um aplicativo de treinos; é um motor determinístico de engenharia de software aplicado à biomecânica. Desenvolvido em Flutter e sustentado por uma topologia Firebase (NoSQL) otimizada para leitura ($O(1)$), o sistema elimina o "achismo" da musculação. 
+
+Através do nosso Motor Cascata 2.0 e do Sistema de Auditoria de Carga (SAC 6.5), o app calcula a real transferência de tensão mecânica, cruza sinergias musculares indiretas e entrega periodizações exatas, protegidas por uma interface fluida, *dark theme* premium e integrações nativas com o sistema operacional (Overlays flutuantes e Background Tasks).
 
 ---
 
-## 🚀 Acesse o Protótipo
+## 🌐 Acesse o Protótipo
 
-Teste o Transforme Tudo através do navegador, baixe a build compilada para Android ou assista ao vídeo de apresentação da arquitetura:
+Teste a fluidez da interface via Web (PWA), baixe a build nativa para Android ou entenda a engenharia por trás do projeto no nosso vídeo de arquitetura:
 
-* 🌐 **Acesso Web (PWA):** [Clique aqui para acessar o Transforme Tudo](COLOQUE_SEU_LINK_DO_FIREBASE_AQUI.web.app)
-* 📱 **Download Android (APK):** [Baixar TransformeTudo.apk](./TransformeTudo.apk)
-* 🎬 **Vídeo de Apresentação:** *Ainda não disponível — Link em breve*
+* 🖥️ **Acesso Web (PWA):** [Clique aqui para acessar a demonstração](transformetudo.web.app)
+* 📱 **Download Android (APK):** [Baixar TransformeTudo.apk](./TransformeTudo.apk) *(via GitHub Releases)*
+* 🎬 **Vídeo de Arquitetura & Deep Dive:** *Em breve*
 
-### 🗝️ Acesso Demonstrativo para Avaliação
-Para testes operacionais rápidos na build de demonstração, utilize as credenciais padrão de auditoria:
+### 🗝️ Acesso Demonstrativo (Modo Auditoria)
+Para testes operacionais rápidos, utilize as credenciais de homologação:
 * **Usuário:** `ContaTeste`
 * **Senha:** `testando`
 
 ---
 
-## 🏛️ Documentação Técnica Oficial (`/docs`)
+## 🧠 Core de Engenharia & Diferenciais Arquiteturais
 
-A arquitetura, a matemática e as regras de negócio do sistema estão detalhadas nos módulos da pasta `/docs`:
+O verdadeiro poder do Transforme Tudo roda nos bastidores. A arquitetura foi desenhada para suportar cálculos matriciais complexos sem onerar a bateria ou a memória do dispositivo:
 
-* **[Arquitetura e Banco de Dados (`docs/arquitetura_e_banco_de_dados.md`)](docs/arquitetura_e_banco_de_dados.md)** — Topologia NoSQL otimizada para leitura ($O(1)$), estrutura de coleções (`muscle_groups`, `profiles`, `exercises`) e desacoplamento de UI/Dados.
-* **[Motor Biomecânico e SAC 6.5 (`docs/motor_biomecanico_sac_6_5.md`)](docs/motor_biomecanico_sac_6_5.md)** — Sistema de Auditoria de Carga, critérios binários ($C1$ a $C6$) de estabilidade sistêmica/vetorial e o modelo de Equivalência de Série ($S_e$).
-* **[Algoritmo de Prescrição / Motor Cascata 2.0 (`docs/algoritmo_de_prescricao_wep.md`)](docs/algoritmo_de_prescricao_wep.md)** — WEP (*Volume Equilibrium Engine*), iterações de convergência para séries inteiras e abatimento inteligente de volume indireto em grupamentos sinergistas.
-* **[Regras de Negócio, UX e Auditoria (`docs/regras_de_negocio_e_fluxos.md`)](docs/regras_de_negocio_e_fluxos.md)** — Máquina de estados de navegação, prevenção de redundâncias cruzadas, parsing inteligente de variações ("Corte de Espada") e o Equalizador V.E.T.
-
----
-
-## ⚙️ Principais Diferenciais de Engenharia e Produto
-
-1. **Read-Optimized Data Model:** Todo o processamento pesado e as matrizes complexas de coeficientes biomecânicos foram pré-calculados e persistidos estaticamente no Firebase. O aplicativo executa leituras leves sem sobrecarregar o *runtime* do dispositivo móvel.
-2. **Motor Cascata 2.0:** Algoritmo de convergência matemática que gerencia o balanço entre volume direto e sinergias indiretas (como o impacto mecânico cruzado em grupamentos primários e secundários), normalizando frações decimais em séries inteiras exatas para a execução prática.
-3. **Gestão Dinâmica de Grupos Opcionais e Poda (*Pruning*):** O sistema oculta automaticamente exercícios de isolamento quando a meta do grupamento opcional (ex: glúteos) já foi integralmente atingida pelo volume indireto dos compostos, prevenindo *overtraining* e aliviando a interface (desligando metas de grupos inativos para evitar falsas sensações de fracasso).
-4. **Parsing de Variações ("Corte de Espada"):** Mecanismo de tratamento de strings baseado em delimitadores que separa a base do exercício de sua variação específica (ex: `SUPINO RETO | BARRA`), garantindo flexibilidade nos coeficientes dinâmicos sem poluir o histórico ou o pódio de recordes do usuário.
-5. **Execução Nativa em Segundo Plano e Overlays:** Integração profunda com o sistema operacional para rodar tarefas contínuas via *Foreground Tasks* e renderização de janelas flutuantes (*Bubble Overlays*), permitindo controle ativo de tempo e sessões sem fricção.
+1. **Motor Cascata 2.0 & Sinergia Indireta (WEP):** Em vez de IA generativa (que sofre com alucinações), utilizamos um algoritmo matemático determinístico. O motor calcula o impacto cruzado entre grupamentos (ex: a carga indireta que um Supino gera no Tríceps), converte os coeficientes fracionários através de iterações de reequilíbrio e entrega ao usuário séries inteiras e exatas.
+2. **Função de Poda Lógica (Pruning):** O sistema protege o Sistema Nervoso Central (SNC) do usuário avaliando o Volume Total. Se o volume indireto de exercícios compostos atingir a meta de grupamentos secundários (como Glúteos, Antebraços ou Oblíquos), o algoritmo realiza uma "poda", removendo isoladores redundantes dinamicamente da interface para prevenir *overtraining*.
+3. **Caching em Memória (RAM) & Read-Optimized NoSQL:** Para garantir que o gerador de treinos rode na velocidade da luz, o banco de dados do Firebase armazena os coeficientes pré-calculados. Ao iniciar o app, o `ExerciseRepository` carrega o ecossistema biomecânico em um cache Singleton na memória. As validações cruzadas ocorrem localmente no dispositivo em $O(1)$, anulando latência de rede.
+4. **Integração OS Profunda (A "Forja" / Bubble Overlays):** A execução do treino não fica presa à tela do app. Utilizando Foreground Services nativos do Android e `flutter_overlay_window`, o cronômetro de descanso e o controle de séries sobrepõem outros apps (como Spotify ou WhatsApp) em uma "Bolha Flutuante", garantindo gestão de tempo sem fricção.
+5. **"Corte de Espada" (Parsing Inteligente de Strings):** Para lidar com mais de 300 variações de exercícios, desenvolvemos um algoritmo de parsing via delimitadores (`|` e `()`). Isso permite ao backend aplicar matrizes de coeficientes únicos (ex: `SUPINO RETO | MÁQUINA ARTICULADA` tendo peso diferente de `BARRA`), enquanto o frontend renderiza nomes limpos e agrupados no Histórico e Hall da Fama.
 
 ---
 
-## 🛠️ Stack Tecnológica e Ecossistema de Dependências
+## 🎨 UI/UX & Design System ("Templo do Corpo")
 
-O projeto consome um conjunto maduro de pacotes do ecossistema Flutter para entregar uma experiência nativa de nível industrial:
+A interface foi tratada com rigor de produto Premium, unindo usabilidade com estímulo psicológico:
 
-* **Core & Backend:** `firebase_core`, `firebase_auth`, `cloud_firestore` (Persistência NoSQL e autenticação).
-* **Serviços Nativos & Background:** `flutter_foreground_task`, `flutter_overlay_window` (Modo bolha flutuante e tarefas contínuas), `wakelock_plus` (Prevenção de suspensão de tela durante os treinos).
-* **Mídia & UI Multimedia:** `youtube_player_flutter`, `just_audio` (Reprodução de tutoriais e suporte a áudio), `cached_network_image` / `flutter_cache_manager` (Gestão de cache de assets e imagens em WebP).
-* **Produtividade & Análise:** `table_calendar` (Gestão de calendário e frequência), `fl_chart` (Renderização de gráficos analíticos de desempenho), `screenshot` & `share_plus` (Exportação e compartilhamento de relatórios e fichas).
-* **Utilitários de Sistema:** `connectivity_plus`, `shared_preferences`, `path_provider`, `intl`, `flutter_dotenv`, `flutter_svg`, `flutter_native_splash`.
+* **Dark Theme Dinâmico:** Paleta focada em SolidSurface escuro com contrastes pontuais em Ouro (`_kGold`), utilizando *Glassmorphism* (fundos translúcidos) para profundidade.
+* **Onboarding com Mock Data (Empty States Educativos):** Telas vazias geram frustração. Nossos painéis de Evolução de Carga e Pódio de Recordes Pessoais injetam dados fictícios realistas e imponentes se o usuário for novo, criando uma vitrine que atua como gatilho psicológico para o registro de treinos.
+* **Animações Fluidas:** Transições geridas por `AnimatedSize` e `Slivers`. A interface reage organicamente: se o usuário seleciona 6 dias de treino, o sistema dinamicamente expande a tela oferecendo configurações biomecânicas avançadas.
+
+---
+
+## 📚 Documentação Técnica (Deep Dive)
+
+Para desenvolvedores e engenheiros de dados interessados nas engrenagens do projeto, detalhamos nossa documentação nos módulos internos da pasta `/docs`:
+
+* 🗄️ **[Arquitetura e Modelagem NoSQL](docs/arquitetura_e_banco_de_dados.md):** A topologia relacional simulada e o desacoplamento de UI/Dados.
+* ⚙️ **[Motor Biomecânico SAC 6.5](docs/motor_biomecanico_sac_6_5.md):** Os critérios binários de estabilidade vetorial e cálculo do índice de Equivalência de Série ($S_e$).
+* 🧬 **[Algoritmo de Prescrição - Cascata 2.0](docs/algoritmo_de_prescricao_wep.md):** Equalizador V.E.T., distribuição de matrizes e funções de teto/piso (*Ceiling/Floor*).
+* 🛡️ **[UX, Regras de Negócio e Auto-Tester](docs/regras_de_negocio_e_fluxos.md):** A máquina de estados da UI e a Sala de Auditoria Biomecânica restrita para desenvolvedores testarem baterias de treinos em massa.
+
+---
+
+## 🛠️ Stack Tecnológica & Ecossistema Flutter
+
+* **Core, Auth & Backend:** `firebase_core`, `firebase_auth`, `cloud_firestore` (NoSQL).
+* **Integrações de SO (Background):** `flutter_foreground_task`, `flutter_overlay_window`, `wakelock_plus`.
+* **Motor Multimídia:** `youtube_player_flutter`, `just_audio`, `cached_network_image`, `flutter_cache_manager`.
+* **Data Vizualization & Gestão:** `fl_chart` (Renderização gráfica avançada), `table_calendar`.
+* **Infra & Utilitários:** `shared_preferences`, `path_provider`, `flutter_dotenv`, `intl`.
 
 ---
 <div align="center">
