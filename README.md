@@ -13,7 +13,7 @@ Através do nosso Motor Cascata 2.0 e do Sistema de Auditoria de Carga (SAC 6.5)
 Teste a fluidez da interface via Web (PWA), baixe a build nativa para Android ou entenda a engenharia por trás do projeto no nosso vídeo de arquitetura:
 
 * 🖥️ **Acesso Web (PWA):** [Clique aqui para acessar a demonstração](transformetudo.web.app)
-* 📱 **Download Android (APK):** [Baixar TransformeTudo.apk](./TransformeTudo.apk) *(via GitHub Releases)*
+* 📱 **Download Android (APK):** [Baixar TransformeTudo.apk](https://github.com/gabriel-tupynamba/transforme_tudo-doc/releases/download/v1.0.0/Transforme_Tudo.apk)
 * 🎬 **Vídeo de Arquitetura & Deep Dive:** *Em breve*
 
 ### 🗝️ Acesso Demonstrativo (Modo Auditoria)
