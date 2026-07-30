@@ -48,10 +48,10 @@ A interface foi tratada com rigor de produto Premium, unindo usabilidade com est
 ## 📱 Galeria e Fluxo de Telas
 
 <div align="center">
-  <img src="Auth/Welcome.jpeg" width="200" />
-  <img src="Abas/Aba_Treinos.jpeg" width="200" />
-  <img src="Montador/Motor.jpeg" width="200" />
-  <img src="Historico/Estatisticas.jpeg" width="200" />
+  <img src="Auth/Welcome.jpeg" width="180" />
+  <img src="Abas/Aba_Treinos.jpeg" width="180" />
+  <img src="Montador/Motor.jpeg" width="180" />
+  <img src="Historico/Estatisticas.jpeg" width="180" />
 </div>
 
 <br>
@@ -61,14 +61,18 @@ A interface foi tratada com rigor de produto Premium, unindo usabilidade com est
   <br>
   <i>Fluxo de entrada do usuário e visualização das abas principais do aplicativo.</i>
   <br><br>
-  
-  <img src="Auth/Login.jpeg" width="250" />
-  <img src="Auth/Register.jpeg" width="250" />
-  <img src="Auth/Verifying.jpeg" width="250" />
-  <br>
-  <img src="Abas/Initial.jpeg" width="250" />
-  <img src="Abas/Aba_Treinos.jpeg" width="250" />
-  <img src="Abas/Aba_Treinos_2.jpeg" width="250" />
+  <table align="center">
+    <tr>
+      <td><img src="Auth/Login.jpeg" width="200" /></td>
+      <td><img src="Auth/Register.jpeg" width="200" /></td>
+      <td><img src="Auth/Verifying.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Abas/Initial.jpeg" width="200" /></td>
+      <td><img src="Abas/Aba_Treinos.jpeg" width="200" /></td>
+      <td><img src="Abas/Aba_Treinos_2.jpeg" width="200" /></td>
+    </tr>
+  </table>
 </details>
 
 <details>
@@ -76,26 +80,38 @@ A interface foi tratada com rigor de produto Premium, unindo usabilidade com est
   <br>
   <i>Motor inteligente para estruturação de treinos e adição de fichas predefinidas.</i>
   <br><br>
-
-  <b>Montador Dinâmico:</b><br>
-  <img src="Montador/Icone.jpeg" width="250" />
-  <img src="Montador/Motor.jpeg" width="250" />
-  <img src="Montador/Motor_2.jpeg" width="250" />
+  <b>Montador Dinâmico:</b>
+  <table align="center">
+    <tr>
+      <td><img src="Montador/Icone.jpeg" width="200" /></td>
+      <td><img src="Montador/Motor.jpeg" width="200" /></td>
+      <td><img src="Montador/Motor_2.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Montador/Muscles.jpeg" width="200" /></td>
+      <td><img src="Montador/Profiles.jpeg" width="200" /></td>
+      <td><img src="Montador/Profiles_2.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Montador/Sumario.jpeg" width="200" /></td>
+      <td><img src="Montador/Substituir.jpeg" width="200" /></td>
+      <td><img src="Montador/Raio_X.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Montador/Raio_X_2.jpeg" width="200" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
   <br>
-  <img src="Montador/Muscles.jpeg" width="250" />
-  <img src="Montador/Profiles.jpeg" width="250" />
-  <img src="Montador/Profiles_2.jpeg" width="250" />
-  <br>
-  <img src="Montador/Raio_X.jpeg" width="250" />
-  <img src="Montador/Raio_X_2.jpeg" width="250" />
-  <img src="Montador/Substituir.jpeg" width="250" />
-  <img src="Montador/Sumario.jpeg" width="250" />
-  <br><br>
-  
-  <b>Ficha Externa:</b><br>
-  <img src="Ficha_Externa/Predefinicao.jpeg" width="250" />
-  <img src="Ficha_Externa/Pesquisa_Exercicios.jpeg" width="250" />
-  <img src="Ficha_Externa/Dias_Ficha_Externa.jpeg" width="250" />
+  <b>Ficha Externa:</b>
+  <table align="center">
+    <tr>
+      <td><img src="Ficha_Externa/Predefinicao.jpeg" width="200" /></td>
+      <td><img src="Ficha_Externa/Pesquisa_Exercicios.jpeg" width="200" /></td>
+      <td><img src="Ficha_Externa/Dias_Ficha_Externa.jpeg" width="200" /></td>
+    </tr>
+  </table>
 </details>
 
 <details>
@@ -103,9 +119,12 @@ A interface foi tratada com rigor de produto Premium, unindo usabilidade com est
   <br>
   <i>Gestão das fichas já estruturadas e salvas pelo usuário.</i>
   <br><br>
-  
-  <img src="Arsenal/Icone.jpeg" width="250" />
-  <img src="Arsenal/Fichas_extras.jpeg" width="250" />
+  <table align="center">
+    <tr>
+      <td><img src="Arsenal/Icone.jpeg" width="200" /></td>
+      <td><img src="Arsenal/Fichas_extras.jpeg" width="200" /></td>
+    </tr>
+  </table>
 </details>
 
 <details>
@@ -113,15 +132,23 @@ A interface foi tratada com rigor de produto Premium, unindo usabilidade com est
   <br>
   <i>Acompanhamento em tempo real durante o treino, incluindo descansos e anotações.</i>
   <br><br>
-  
-  <img src="Treino_Ativo/Icone.jpeg" width="250" />
-  <img src="Treino_Ativo/Treino_Ativo.jpeg" width="250" />
-  <img src="Treino_Ativo/Treinando.jpeg" width="250" />
-  <br>
-  <img src="Treino_Ativo/Detalhes.jpeg" width="250" />
-  <img src="Treino_Ativo/Anotacao.jpeg" width="250" />
-  <img src="Treino_Ativo/Descanso.jpeg" width="250" />
-  <img src="Treino_Ativo/Treino_Finalizado.jpeg" width="250" />
+  <table align="center">
+    <tr>
+      <td><img src="Treino_Ativo/Icone.jpeg" width="200" /></td>
+      <td><img src="Treino_Ativo/Treino_Ativo.jpeg" width="200" /></td>
+      <td><img src="Treino_Ativo/Treinando.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Treino_Ativo/Detalhes.jpeg" width="200" /></td>
+      <td><img src="Treino_Ativo/Anotacao.jpeg" width="200" /></td>
+      <td><img src="Treino_Ativo/Descanso.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Treino_Ativo/Treino_Finalizado.jpeg" width="200" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
 </details>
 
 <details>
@@ -129,26 +156,34 @@ A interface foi tratada com rigor de produto Premium, unindo usabilidade com est
   <br>
   <i>Acompanhamento de progresso, calendário de treinos executados e quebra de recordes (PRs).</i>
   <br><br>
-  
-  <b>Estatísticas Globais e Calendário:</b><br>
-  <img src="Historico/Icone.jpeg" width="250" />
-  <img src="Historico/Estatisticas.jpeg" width="250" />
+  <b>Estatísticas Globais e Calendário:</b>
+  <table align="center">
+    <tr>
+      <td><img src="Historico/Icone.jpeg" width="200" /></td>
+      <td><img src="Historico/Estatisticas.jpeg" width="200" /></td>
+      <td><img src="Historico/Icone_Calendario.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Historico/Calendario.jpeg" width="200" /></td>
+      <td><img src="Historico/Treino_Calendario.jpeg" width="200" /></td>
+      <td></td>
+    </tr>
+  </table>
   <br>
-  <img src="Historico/Icone_Calendario.jpeg" width="250" />
-  <img src="Historico/Calendario.jpeg" width="250" />
-  <img src="Historico/Treino_Calendario.jpeg" width="250" />
-  <br><br>
-  
-  <b>Evolução Contínua:</b><br>
-  <img src="Historico/Evolução.jpeg" width="250" />
-  <img src="Historico/Evolução_2.jpeg" width="250" />
-  <br><br>
-  
-  <b>Hall da Fama (PRs):</b><br>
-  <img src="Historico/Hall_PRs.jpeg" width="250" />
-  <img src="Historico/Hall_PRs_2.jpeg" width="250" />
+  <b>Evolução Contínua e Hall da Fama (PRs):</b>
+  <table align="center">
+    <tr>
+      <td><img src="Historico/Evolução.jpeg" width="200" /></td>
+      <td><img src="Historico/Evolução_2.jpeg" width="200" /></td>
+      <td><img src="Historico/Hall_PRs.jpeg" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Historico/Hall_PRs_2.jpeg" width="200" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
 </details>
-
 ---
 
 ## 📚 Documentação Técnica (Deep Dive)
