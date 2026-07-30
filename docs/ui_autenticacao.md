@@ -6,10 +6,10 @@ Este módulo é responsável pelo fluxo de entrada do utilizador e pela apresent
 Telas de início de sessão, registro e verificação de conta, garantindo o acesso seguro ao ecossistema.
 
 <p align="center">
-  <img src="../assets/Auth/Login.jpeg" width="250" />
-  <img src="../assets/Auth/Register.jpeg" width="250" />
-  <img src="../assets/Auth/Verifying.jpeg" width="250" />
-  <img src="../assets/Auth/Welcome.jpeg" width="250" />
+  <img src="../assets/Auth/Welcome.jpeg" width="200" />
+  <img src="../assets/Auth/Login.jpeg" width="200" />
+  <img src="../assets/Auth/Register.jpeg" width="200" />
+  <img src="../assets/Auth/Verifying.jpeg" width="200" />
 </p>
 
 ### Navegação Principal (Abas)
