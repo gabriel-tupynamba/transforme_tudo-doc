@@ -9,6 +9,7 @@ Telas de início de sessão, registro e verificação de conta, garantindo o ace
   <img src="../assets/Auth/Login.jpeg" width="250" />
   <img src="../assets/Auth/Register.jpeg" width="250" />
   <img src="../assets/Auth/Verifying.jpeg" width="250" />
+  <img src="../assets/Auth/Welcome.jpeg" width="250" />
 </p>
 
 ### Navegação Principal (Abas)
