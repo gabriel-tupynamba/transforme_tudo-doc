@@ -3,7 +3,7 @@
 Este módulo é responsável pelo fluxo de entrada do utilizador e pela apresentação da interface principal (abas) do Transforme Tudo.
 
 ### Fluxo de Autenticação
-Ecrãs de início de sessão, registo e verificação de conta, garantindo o acesso seguro ao ecossistema.
+Telas de início de sessão, registro e verificação de conta, garantindo o acesso seguro ao ecossistema.
 
 <p align="center">
   <img src="../assets/Auth/Login.jpeg" width="250" />
