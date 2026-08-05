@@ -14,7 +14,7 @@ Teste a fluidez da interface via Web (PWA), baixe a build nativa para Android ou
 
 * 🖥️ **Acesso Web (PWA):** [Clique aqui para acessar a demonstração](https://transformetudo.web.app)
 * 📱 **Download Android (APK):** [Baixar TransformeTudo.apk](https://github.com/gabriel-tupynamba/transforme_tudo-doc/releases/download/v1.0.0/Transforme_Tudo.apk).
-* 🎬 **Vídeo de Arquitetura & Deep Dive:** *Em breve*
+* 🎬 **Vídeo de Arquitetura & Deep Dive:** [Clique aqui para acessar o vídeo demonstração](https://youtu.be/RQHrwOY-R-k)
 
 ### 🗝️ Acesso Demonstrativo (Modo Auditoria)
 Para testes operacionais rápidos, utilize as credenciais de homologação:
