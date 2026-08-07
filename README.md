@@ -18,8 +18,8 @@ Teste a fluidez da interface via Web (PWA), baixe a build nativa para Android ou
 
 ### 🗝️ Acesso Demonstrativo (Modo Auditoria)
 Para testes operacionais rápidos, utilize as credenciais de homologação:
-* **Usuário:** `ContaTeste`
-* **Senha:** `testando`
+* **Usuário:** 'testetransformetudo@gmail.com`
+* **Senha:** `123456`
 
 ---
 
