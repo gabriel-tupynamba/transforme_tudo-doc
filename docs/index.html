@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Transforme Tudo — uma plataforma para transformar corpo, mente e espírito através de ações práticas.">
+
+    <meta name="theme-color" content="#0b0b0b">
+
+    <title>Transforme Tudo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --background: #0a0a0a;
+            --surface: #121212;
+            --surface-hover: #1a1a1a;
+            --gold: #d4af37;
+            --gold-light: #f0d875;
+            --text: #f5f5f5;
+            --text-secondary: #a7a7a7;
+            --border: rgba(212, 175, 55, 0.18);
+        }
+
+        body {
+            min-height: 100vh;
+
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+
+            color: var(--text);
+
+            background:
+                radial-gradient(
+                    circle at 50% -10%,
+                    rgba(212, 175, 55, 0.14),
+                    transparent 38%
+                ),
+                radial-gradient(
+                    circle at 100% 100%,
+                    rgba(212, 175, 55, 0.06),
+                    transparent 30%
+                ),
+                var(--background);
+
+            display: flex;
+            justify-content: center;
+
+            padding: 48px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 560px;
+
+            text-align: center;
+        }
+
+        /* =========================
+           LOGO
+        ========================= */
+
+        .logo-wrapper {
+            width: 118px;
+            height: 118px;
+
+            margin: 0 auto 24px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 30px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(255, 255, 255, 0.08),
+                    rgba(255, 255, 255, 0.02)
+                );
+
+            border: 1px solid var(--border);
+
+            box-shadow:
+                0 20px 60px rgba(0, 0, 0, 0.45),
+                0 0 40px rgba(212, 175, 55, 0.08);
+        }
+
+        .logo {
+            width: 92px;
+            height: 92px;
+
+            object-fit: contain;
+        }
+
+        /* =========================
+           IDENTIDADE
+        ========================= */
+
+        .brand {
+            font-size: 38px;
+            font-weight: 800;
+
+            letter-spacing: -1.2px;
+
+            margin-bottom: 10px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #ffffff 20%,
+                    var(--gold-light) 100%
+                );
+
+            -webkit-background-clip: text;
+            background-clip: text;
+
+            color: transparent;
+        }
+
+        .tagline {
+            color: var(--text-secondary);
+
+            font-size: 16px;
+
+            line-height: 1.7;
+
+            max-width: 430px;
+
+            margin: 0 auto 36px;
+        }
+
+        .pillars {
+            display: flex;
+
+            justify-content: center;
+
+            gap: 8px;
+
+            flex-wrap: wrap;
+
+            margin-bottom: 34px;
+        }
+
+        .pillar {
+            padding: 7px 13px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.04);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            color: #cfcfcf;
+
+            font-size: 12px;
+
+            font-weight: 600;
+
+            letter-spacing: 0.3px;
+        }
+
+        /* =========================
+           BOTÕES
+        ========================= */
+
+        .buttons {
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 13px;
+        }
+
+        .button {
+            min-height: 60px;
+
+            width: 100%;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            gap: 10px;
+
+            padding: 16px 20px;
+
+            border-radius: 15px;
+
+            text-decoration: none;
+
+            font-size: 16px;
+
+            font-weight: 700;
+
+            transition:
+                transform 0.18s ease,
+                box-shadow 0.18s ease,
+                background 0.18s ease;
+
+            cursor: pointer;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .button:active {
+            transform: scale(0.985);
+        }
+
+        .button-primary {
+            color: #0b0b0b;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #f3d96b,
+                    #c9a82e
+                );
+
+            box-shadow:
+                0 10px 30px rgba(212, 175, 55, 0.16);
+        }
+
+        .button-primary:hover {
+            box-shadow:
+                0 14px 36px rgba(212, 175, 55, 0.25);
+        }
+
+        .button-secondary {
+            color: var(--text);
+
+            background: var(--surface);
+
+            border: 1px solid var(--border);
+        }
+
+        .button-secondary:hover {
+            background: var(--surface-hover);
+
+            border-color:
+                rgba(212, 175, 55, 0.35);
+        }
+
+        .button-icon {
+            font-size: 19px;
+        }
+
+        /* =========================
+           DOCUMENTOS
+        ========================= */
+
+        .legal {
+            margin-top: 32px;
+
+            padding-top: 25px;
+
+            border-top:
+                1px solid rgba(255, 255, 255, 0.07);
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 22px;
+
+            flex-wrap: wrap;
+        }
+
+        .legal a {
+            color: #858585;
+
+            font-size: 13px;
+
+            text-decoration: none;
+
+            transition:
+                color 0.15s ease;
+        }
+
+        .legal a:hover {
+            color: var(--gold-light);
+
+            text-decoration: underline;
+        }
+
+        /* =========================
+           RODAPÉ
+        ========================= */
+
+        footer {
+            margin-top: 32px;
+
+            color: #555555;
+
+            font-size: 12px;
+
+            line-height: 1.7;
+        }
+
+        /* =========================
+           RESPONSIVO
+        ========================= */
+
+        @media (max-width: 480px) {
+
+            body {
+                padding:
+                    36px 18px;
+            }
+
+            .logo-wrapper {
+                width: 104px;
+                height: 104px;
+
+                border-radius: 26px;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+            }
+
+            .brand {
+                font-size: 32px;
+            }
+
+            .tagline {
+                font-size: 15px;
+            }
+
+            .button {
+                min-height: 57px;
+
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <main class="container">
+
+        <!-- =========================
+             LOGO
+        ========================== -->
+
+        <div class="logo-wrapper">
+
+            <img
+                src="assets/logo.png"
+                alt="Logo do Transforme Tudo"
+                class="logo"
+            >
+
+        </div>
+
+
+        <!-- =========================
+             IDENTIDADE
+        ========================== -->
+
+        <h1 class="brand">
+            Transforme Tudo
+        </h1>
+
+        <p class="tagline">
+            Um ecossistema para transformar
+            <strong>corpo, mente e espírito</strong>
+            através de ações práticas.
+        </p>
+
+
+        <!-- =========================
+             PILARES
+        ========================== -->
+
+        <div class="pillars">
+
+            <span class="pillar">
+                Corpo
+            </span>
+
+            <span class="pillar">
+                Mente
+            </span>
+
+            <span class="pillar">
+                Espírito
+            </span>
+
+        </div>
+
+
+        <!-- =========================
+             ACESSOS PRINCIPAIS
+        ========================== -->
+
+        <div class="buttons">
+
+            <a
+                href="https://transformetudo.web.app"
+                class="button button-primary"
+            >
+                <span class="button-icon">🌐</span>
+
+                Acessar o Transforme Tudo
+            </a>
+
+
+            <a
+                href="https://github.com/gabriel-tupynamba/transforme_tudo-doc/releases/download/v1.0.0/Transforme_Tudo.apk"
+                class="button button-secondary"
+                download
+            >
+                <span class="button-icon">📱</span>
+
+                Baixar aplicativo Android
+            </a>
+
+        </div>
+
+
+        <!-- =========================
+             DOCUMENTOS LEGAIS
+        ========================== -->
+
+        <div class="legal">
+
+            <a href="privacidade/pol%C3%ADtica%20de%20privacidade.md">
+                Política de Privacidade
+            </a>
+
+            <a href="privacidade/termos%20de%20uso.md">
+                Termos de Uso
+            </a>
+
+        </div>
+
+
+        <!-- =========================
+             RODAPÉ
+        ========================== -->
+
+        <footer>
+
+            © 2026 Transforme Tudo.<br>
+
+            Desenvolvido com rigor, propósito e engenharia.
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
